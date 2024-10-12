@@ -1,0 +1,85 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+
+.comments-app-container {
+  min-height: 100vh;
+  background-color: #dee0e3;
+  display: flex;
+  justify-content: center;
+}
+
+.main-heading {
+  margin-top: 50px;
+  color: #1e293b;
+  font-size: 28px;
+}
+.app-responsive-container {
+  width: 90%;
+}
+.input-form {
+  width: 40%;
+}
+.instruction {
+  font-size: 12px;
+  font-weight: 500;
+  color: #334155;
+}
+.name-input {
+  width: 100%;
+  margin-bottom: 8px;
+  border: 1px solid #94a3b8;
+  border-radius: 2px;
+  height: 28px;
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 400;
+}
+.comment-text-container {
+  width: 100%;
+  margin-bottom: 8px;
+  border: 1px solid #94a3b8;
+  border-radius: 2px;
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.comment-button {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  border: none;
+  border-radius: 2px;
+  height: 26px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.comment-section {
+  display: flex;
+  justify-content: space-between;
+}
+.comments-img {
+  width: 40%;
+}
+.separator {
+  border: 1px solid #94a3b8;
+}
+.comments-count {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 2px;
+  margin-right: 5px;
+  font-size: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.comments {
+  font-size: 14px;
+}
+.comments-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
